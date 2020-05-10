@@ -11,13 +11,11 @@
 
   http://www.imparareaprogrammare.it
 */
-var cats = 44;
-var cats_4_line = 6;
 
-var n_of_lines = Math.ceil(cats/cats_4_line);
-var n_of_missing_cats = n_of_lines*cats_4_line-cats;
+var anno_corrente = 2018
+var anno_di_nascita = 1987
 
-console.log('cats  =  ' + cats);
-console.log('cats_4_line  =  ' + cats_4_line);
+età = anno_corrente-anno_di_nascita
+anni_mancanti = 100 - età
 
-console.log(`${cats} gatti in fila per ${cats_4_line} si unirono compatti in ${n_of_lines} file. Nell'ultima fila rimasero ${n_of_missing_cats} posti gatto disponibili`);
+console.log('età = '+età,', anni mancanti = '+anni_mancanti);
