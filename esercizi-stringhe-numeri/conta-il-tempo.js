@@ -12,3 +12,13 @@
 
   http://www.imparareaprogrammare.it
 */
+
+var x = 100000;
+var sec_min = 60;
+var sec_ora = 3600;
+
+var ora = Math.floor(x/sec_ora);
+var min = Math.floor((x-ora*sec_ora)/sec_min);
+var sec = Math.floor(x-ora*sec_ora-min*sec_min);
+
+console.log(`${ora} ore, ${min} minuti e ${sec} secondi`);
