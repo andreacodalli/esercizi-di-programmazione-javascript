@@ -17,3 +17,14 @@
 
   http://www.imparareaprogrammare.it
 */
+
+var cats = 44;
+var cats_4_line = 6;
+
+var n_of_lines = Math.ceil(cats/cats_4_line);
+var n_of_missing_cats = n_of_lines*cats_4_line-cats;
+
+console.log('cats  =  ' + cats);
+console.log('cats_4_line  =  ' + cats_4_line);
+
+console.log(`${cats} gatti in fila per ${cats_4_line} si unirono compatti in ${n_of_lines} file. Nell'ultima fila rimasero ${n_of_missing_cats} posti gatto disponibili`);
